@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>comoestassergio</title>
+</head>
+<body>
+    <main>
+        <div id="backgr"></div>
+        <header>
+            <img src="/assets/profile-crop.jpg" alt="profile image" height="175px" width="175px">
+            <h1>como<br>estas<br>sergio</h1>
+        </header>
+        <section>
+            <ul>
+                <li class="list-item"><a class="link" href="https://t.me/only_sergio"><img src="/assets/telegram.svg" alt="telegram" height="30px" width="40px">Telegram</a></li>
+                <li class="list-item"><a class="link" href="https://github.com/comoestassergio"><img src="/assets/github.svg" alt="github" height="30px" width="40px">GitHub</a></li>
+                <li class="list-item"><a class="link" href="https://emptybox.bandcamp.com/"><img src="/assets/music-alt.svg" alt="bandcamp" height="30px" width="40px">Bandcamp</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+<script>
+    VANTA.FOG({
+    el: "#backgr",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    highlightColor: 0xffdab3,
+    midtoneColor: 0xf09490,
+    lowlightColor: 0xf579ea,
+    blurFactor: 0.52,
+    speed: 1.40,
+    zoom: 2.30
+    })
+</script>
+</html>
